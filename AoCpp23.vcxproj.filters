@@ -1,0 +1,80 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\inputs">
+      <UniqueIdentifier>{eaef801c-1787-467a-a4f6-fbf4ab6953e0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="srcs\day.ixx">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srcs\day01.ixx">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srcs\daybase.ixx">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srcs\day01.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srcs\daybase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srcs\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srcs\day.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srcs\day02.ixx">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srcs\day02.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srcs\day03.ixx">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srcs\day03.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srcs\day04.ixx">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srcs\day04.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srcs\common.ixx">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="srcs\matrix.ixx">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+  <ClCompile Include="srcs\day05.ixx"><Filter>Header Files</Filter></ClCompile><ClCompile Include="srcs\day05.cpp"><Filter>Source Files</Filter></ClCompile><ClCompile Include="srcs\day06.ixx"><Filter>Header Files</Filter></ClCompile><ClCompile Include="srcs\day06.cpp"><Filter>Source Files</Filter></ClCompile><ClCompile Include="srcs\day07.ixx"><Filter>Header Files</Filter></ClCompile><ClCompile Include="srcs\day07.cpp"><Filter>Source Files</Filter></ClCompile></ItemGroup>
+  <ItemGroup>
+    <None Include="srcs\inputs\day01.in">
+      <Filter>Source Files\inputs</Filter>
+    </None>
+    <None Include="srcs\inputs\day02.in">
+      <Filter>Source Files\inputs</Filter>
+    </None>
+    <None Include="srcs\inputs\day03.in">
+      <Filter>Source Files\inputs</Filter>
+    </None>
+    <None Include="srcs\inputs\day04.in">
+      <Filter>Source Files\inputs</Filter>
+    </None>
+  <None Include="srcs\inputs\day05.in"><Filter>Source Files\inputs</Filter></None><None Include="srcs\inputs\day06.in"><Filter>Source Files\inputs</Filter></None><None Include="srcs\inputs\day07.in"><Filter>Source Files\inputs</Filter></None></ItemGroup>
+</Project>
