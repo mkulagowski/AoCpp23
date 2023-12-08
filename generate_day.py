@@ -13,6 +13,7 @@ new_name = f'day{last_num:02d}'
 with open(os.path.join(curr, 'day_template.ixx'), 'r') as infile:
     filedata = infile.read()
     filedata = filedata.replace('[[NUM]]', f'{last_num:02d}')
+    filedata = filedata.replace('[[NUM_ARG]]', f'{last_num}')
     with open(os.path.join(srcs_path, new_name + '.ixx'), 'w') as outfile:
         outfile.write(filedata)
 
@@ -30,7 +31,7 @@ with open(os.path.join(srcs_path, 'day.ixx'), 'a') as file:
 with open(os.path.join(srcs_path, 'day.cpp'), 'r') as file:
     data = file.read()
 nl = '\n'
-data = data.replace('default:', f'case {last_num:02d}:{nl: <13}return std::make_shared<Day{last_num:02d}>();{nl: <9}default:')
+data = data.replace('default:', f'case {last_num}:{nl: <13}return std::make_shared<Day{last_num:02d}>();{nl: <9}default:')
 with open(os.path.join(srcs_path, 'day.cpp'), 'w') as file:
     file.write(data)
 

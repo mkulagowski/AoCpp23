@@ -5,20 +5,22 @@ import std;
 std::shared_ptr<Day> get_day(int n)
 {
     switch (n) {
-        case 01:
+        case 1:
             return std::make_shared<Day01>();
-        case 02:
+        case 2:
             return std::make_shared<Day02>();
-        case 03:
+        case 3:
             return std::make_shared<Day03>();
-        case 04:
+        case 4:
             return std::make_shared<Day04>();
-        case 05:
+        case 5:
             return std::make_shared<Day05>();
-        case 06:
+        case 6:
             return std::make_shared<Day06>();
-        case 07:
+        case 7:
             return std::make_shared<Day07>();
+        case 8:
+            return std::make_shared<Day08>();
         default:
             return {};
     }

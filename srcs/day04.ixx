@@ -6,8 +6,7 @@ import std;
 export class Day04 : public Day
 {
 public:
-	Day04() : Day(04) {}
-
+	Day04() : Day(4) {}
 
 	struct CardSet {
 		std::unordered_set<int> winning_nums;

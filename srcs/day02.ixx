@@ -6,7 +6,7 @@ import std;
 export class Day02 : public Day
 {
 public:
-	Day02() : Day(02) {}
+	Day02() : Day(2) {}
 
 	struct CubeSet
 	{

@@ -7,7 +7,7 @@ import common;
 export class Day06 : public Day
 {
 public:
-	Day06() : Day(06) {}
+	Day06() : Day(6) {}
 
 	struct Race {
 		std::uint64_t time;

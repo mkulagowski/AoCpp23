@@ -62,7 +62,7 @@
     <ClCompile Include="srcs\matrix.ixx">
       <Filter>Header Files</Filter>
     </ClCompile>
-  <ClCompile Include="srcs\day05.ixx"><Filter>Header Files</Filter></ClCompile><ClCompile Include="srcs\day05.cpp"><Filter>Source Files</Filter></ClCompile><ClCompile Include="srcs\day06.ixx"><Filter>Header Files</Filter></ClCompile><ClCompile Include="srcs\day06.cpp"><Filter>Source Files</Filter></ClCompile><ClCompile Include="srcs\day07.ixx"><Filter>Header Files</Filter></ClCompile><ClCompile Include="srcs\day07.cpp"><Filter>Source Files</Filter></ClCompile></ItemGroup>
+  <ClCompile Include="srcs\day05.ixx"><Filter>Header Files</Filter></ClCompile><ClCompile Include="srcs\day05.cpp"><Filter>Source Files</Filter></ClCompile><ClCompile Include="srcs\day06.ixx"><Filter>Header Files</Filter></ClCompile><ClCompile Include="srcs\day06.cpp"><Filter>Source Files</Filter></ClCompile><ClCompile Include="srcs\day07.ixx"><Filter>Header Files</Filter></ClCompile><ClCompile Include="srcs\day07.cpp"><Filter>Source Files</Filter></ClCompile><ClCompile Include="srcs\day08.ixx"><Filter>Header Files</Filter></ClCompile><ClCompile Include="srcs\day08.cpp"><Filter>Source Files</Filter></ClCompile></ItemGroup>
   <ItemGroup>
     <None Include="srcs\inputs\day01.in">
       <Filter>Source Files\inputs</Filter>
@@ -76,5 +76,5 @@
     <None Include="srcs\inputs\day04.in">
       <Filter>Source Files\inputs</Filter>
     </None>
-  <None Include="srcs\inputs\day05.in"><Filter>Source Files\inputs</Filter></None><None Include="srcs\inputs\day06.in"><Filter>Source Files\inputs</Filter></None><None Include="srcs\inputs\day07.in"><Filter>Source Files\inputs</Filter></None></ItemGroup>
+  <None Include="srcs\inputs\day05.in"><Filter>Source Files\inputs</Filter></None><None Include="srcs\inputs\day06.in"><Filter>Source Files\inputs</Filter></None><None Include="srcs\inputs\day07.in"><Filter>Source Files\inputs</Filter></None><None Include="srcs\inputs\day08.in"><Filter>Source Files\inputs</Filter></None></ItemGroup>
 </Project>

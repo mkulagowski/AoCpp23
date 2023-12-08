@@ -149,13 +149,13 @@
     <ClCompile Include="srcs\day04.ixx" />
     <ClCompile Include="srcs\day04.cpp" />
     <ClCompile Include="srcs\matrix.ixx" />
-  <ClCompile Include="srcs\day05.ixx" /><ClCompile Include="srcs\day05.cpp" /><ClCompile Include="srcs\day06.ixx" /><ClCompile Include="srcs\day06.cpp" /><ClCompile Include="srcs\day07.ixx" /><ClCompile Include="srcs\day07.cpp" /></ItemGroup>
+  <ClCompile Include="srcs\day05.ixx" /><ClCompile Include="srcs\day05.cpp" /><ClCompile Include="srcs\day06.ixx" /><ClCompile Include="srcs\day06.cpp" /><ClCompile Include="srcs\day07.ixx" /><ClCompile Include="srcs\day07.cpp" /><ClCompile Include="srcs\day08.ixx" /><ClCompile Include="srcs\day08.cpp" /></ItemGroup>
   <ItemGroup>
     <None Include="srcs\inputs\day01.in" />
     <None Include="srcs\inputs\day02.in" />
     <None Include="srcs\inputs\day03.in" />
     <None Include="srcs\inputs\day04.in" />
-  <None Include="srcs\inputs\day05.in" /><None Include="srcs\inputs\day06.in" /><None Include="srcs\inputs\day07.in" /></ItemGroup>
+  <None Include="srcs\inputs\day05.in" /><None Include="srcs\inputs\day06.in" /><None Include="srcs\inputs\day07.in" /><None Include="srcs\inputs\day08.in" /></ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

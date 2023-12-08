@@ -6,7 +6,7 @@ import common;
 
 export class Day05 : public Day {
 public:
-    Day05() : Day(05) {}
+    Day05() : Day(5) {}
 
     struct Range {
         std::uint64_t start;

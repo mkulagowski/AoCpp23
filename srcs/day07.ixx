@@ -7,7 +7,7 @@ import common;
 export class Day07 : public Day
 {
 public:
-	Day07() : Day(07) {}
+	Day07() : Day(7) {}
 
 	struct Hand {
 		enum Type {

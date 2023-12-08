@@ -12,3 +12,4 @@ export import :day04;
 export import :day05;
 export import :day06;
 export import :day07;
+export import :day08;

@@ -6,7 +6,7 @@ import std;
 export class Day01 : public Day
 {
 public:
-	Day01() : Day(01) {}
+	Day01() : Day(1) {}
 
 private:
 	std::string part1() override;

@@ -6,7 +6,7 @@ import std;
 export class Day[[NUM]] : public Day
 {
 public:
-	Day[[NUM]]() : Day([[NUM]]) {}
+	Day[[NUM]]() : Day([[NUM_ARG]]) {}
 
 private:
 	std::string part1() override;
