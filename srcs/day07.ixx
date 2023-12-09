@@ -114,7 +114,6 @@ public:
 		bool operator<(const Hand& other) {
 			if (type == other.type) {
 				for (int i = 0; i < hand_order.size(); i++) {
-					auto hand_subres = hand_order[i] <=> other.hand_order[i];
 					if (hand_order[i] == other.hand_order[i])
 						continue;
 					return hand_order[i] < other.hand_order[i];

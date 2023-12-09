@@ -28,7 +28,7 @@ export {
 
     std::pair<std::string_view, std::string_view> split_once(std::string_view str, char sep) {
         const size_t cutpoint = str.find(sep);
-        return std::make_pair(str.substr(0, cutpoint), str.substr(cutpoint, std::string::npos));
+        return std::make_pair(str.substr(0, cutpoint), str.substr(cutpoint + 1, std::string::npos));
     }
 
     std::pair<std::string_view, std::string_view> split_once(std::string_view str, const char* sep) {
@@ -82,10 +82,11 @@ export {
     template<typename T = int>
     T to_int(std::string_view sv) {
         T res = 0;
-        for (char c : sv) {
+        std::from_chars(sv.data(), sv.data() + sv.size(), res);
+        /*for (char c : sv) {
             if (c >= '0' && c <= '9')
                 res = 10 * res + (c - '0');
-        }
+        }*/
         return res;
     }
 }
