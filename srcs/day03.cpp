@@ -13,7 +13,7 @@ std::string Day03::part1() {
 			const int c = m_input.get(x, y);
 			const bool is_symbol = c < 0;
 			if (is_symbol) {
-				m_input.process_neighbours(x, y, [&](int xx, int yy) {
+				m_input.process_neighbours(x, y, [&](int xx, int yy, Direction _unused) {
 					const int neigh = m_input.get(xx, yy);
 					if (neigh > 0 && !are_parts[neigh - 1]) {
 						are_parts[neigh - 1] = true;
@@ -38,7 +38,7 @@ std::string Day03::part2() {
 			const bool is_star = c < 0 && m_symbols[(- 1 * c) - 1] == '*';
 			if (is_star) {
 				neigh_idxs.clear();
-				m_input.process_neighbours(x, y, [&](int xx, int yy) {
+				m_input.process_neighbours(x, y, [&](int xx, int yy, Direction _unused) {
 					const int neigh = m_input.get(xx, yy);
 					if (neigh > 0) {
 						neigh_idxs.insert(neigh - 1);
