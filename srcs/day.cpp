@@ -25,6 +25,8 @@ std::shared_ptr<Day> get_day(int n)
             return std::make_shared<Day09>();
         case 10:
             return std::make_shared<Day10>();
+        case 11:
+            return std::make_shared<Day11>();
         default:
             return {};
     }
